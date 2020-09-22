@@ -1,0 +1,20 @@
+/* Style buttons */
+#footer-fehlermelden {
+	text-align: right;
+}
+.btn-fehlermelden {
+	background-color: #f0f0f0;
+	border: none;
+	color: #00823e;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-size:11px;
+	height: auto;
+	
+}
+
+/* Darker background on mouse-over */
+.btn-fehlermelden:hover {
+	background-color: #00823e;
+	color: white;
+}

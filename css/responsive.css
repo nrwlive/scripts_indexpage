@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+h1 {
+	font-family: 'Segoe UI Semibold', sans-serif;
+	color: #00823e;
+	font-size: 35pt;
+}
+
+h2 {
+	font-family: 'Segoe UI Semibold', sans-serif;
+	color: #949494;
+	font-size: 33pt;
+}
+
+h3 {
+	font-family: 'Segoe UI Semibold', sans-serif;
+	color: #008040;
+	font-size: 31pt;
+}
+
+#title {
+	text-align: center;
+	font-family: 'Segoe UI Semibold', sans-serif;
+	color: #00823e;
+	font-size: 37pt;
+}
+
+#subtitle {
+	text-align: center;
+	font-family: 'Segoe UI Semibold', sans-serif;
+	color: #949494;
+	font-size: 31pt;
+}
+
+#titlebox {
+	width: 40%;
+	padding-bottom: 20px;
+}
+
+#footerbox {
+	text-align: right;
+	width: 40%;
+	padding-top: 4%;
+	padding-left: 1%;
+}
+
+#footerlogo {
+	text-align: center;
+}
+
+footer {
+	text-align: left;
+	font-family: 'Segoe UI Semibold', sans-serif;
+	font-size: 25pt;
+	color: #949494;
+}
+
+a {
+	color: #00823e;
+	font-family: 'Segoe UI Semibold', sans-serif;
+}
+
+summary {
+	color: #008040;
+	font-family: 'Segoe UI Semibold', sans-serif;
+	font-size: 27pt;
+}
+
+/* Style buttons */
+.btn {
+	background-color: #00823e;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 28px;
+	height: auto;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+	background-color: #01592d;
+}
+
+li {
+	color: #c3c3c3;
+	padding-top: 10px;
+}
+
+#produktiv {
+	width: 20em;
+}
+
+#entwicklung {
+	width: 20%;
+}
+
+body {
+	padding-left: 1%;
+}
+}
+/* 
+
+Tablet Styles
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; Yellow
+  }
+}
+
+Desktop Styles
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; Blue
+  }
+}
+ */
